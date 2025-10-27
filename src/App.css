@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  background-color: white;
+  margin: 50px auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+#add-section {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+#add-section input {
+  flex: 1;
+  padding: 0 15px;
+  height: 45px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+#add-section input:focus {
+  border-color: #0066ff;
+}
+
+#add-section button {
+  padding: 0 20px;
+  height: 45px;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#add-section button:hover {
+  background-color: #0052cc;
+}
+
+#todos-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.todo-item p {
+  flex: 1;
+  margin: 0;
+}
+
+.todo-item button {
+  padding: 8px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.todo-item button:hover {
+  background-color: #e9ecef;
+}

@@ -1,0 +1,24 @@
+p{
+  text-align: left;
+}
+
+h2 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 25px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ff5945;
+  cursor: pointer;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
